@@ -56,7 +56,7 @@
     </style>
 </head>
 <body>
-    <h2>Product Barcode Generator</h2>
+    <h2>Growsari Barcode</h2>
     <div id="barcode-container">
         <p id="product-id"></p>
         <p id="product-name"></p>
@@ -84,7 +84,7 @@
                 displayValue: true
             });
 
-            document.getElementById("product-id").innerText = productId ? `ID: ${productId}` : "No Product ID";
+            document.getElementById("product-id").innerText = productId ? `Item Code : ${productId}` : "No Product ID";
             document.getElementById("product-name").innerText = productName ? productName : "No Product Name";
         } else {
             document.getElementById("barcode-container").innerHTML = "<p>No barcode data provided</p>";
